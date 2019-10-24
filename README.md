@@ -16,3 +16,11 @@ usage:
 1. clone repo or download as .zip
 2. copy s.py and run.bat wherever you have the .qc files and _anims 
 3. run "run.bat" and wait for it to finish, press enter to quit the cmd
+if your blender .exe isn't on C:, change the path accordingly in the run.bat file.
+
+
+to-do:
+- run tests on different source engine games to make it game-independent
+- make it recursive and more user-friendly
+
+this wasn't supposed to be public but 
