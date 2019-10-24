@@ -2,8 +2,10 @@ import os, re, bpy, glob, linecache
 
 importDir = str(os.path.dirname(os.path.realpath(__file__)))
 os.chdir(importDir)
+file = str()
 
 for file in glob.glob('*.qc'):
+    file = file
     filenoext = os.path.splitext(file)[0]
     
     if os.path.exists(filenoext + '_exported.fbx') == True:
