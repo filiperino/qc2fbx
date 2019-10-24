@@ -8,6 +8,7 @@ features:
 
 prerequisites:
 blender 2.8 (https://www.blender.org/download/)
+
 python 3.7.0 32-bit (https://www.python.org/downloads/release/python-370/)
 
 usage:
