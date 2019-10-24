@@ -7,6 +7,7 @@ features:
 - mesh export settings adjusted to have no warnings about smoothing groups later
 
 prerequisites:
+
 blender 2.8 (https://www.blender.org/download/)
 
 python 3.7.0 32-bit (https://www.python.org/downloads/release/python-370/)
