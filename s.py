@@ -14,9 +14,9 @@ for file in glob.glob('*.qc'):
         bpy.ops.import_scene.smd(filepath=file, filter_glob=('*.qc'), doAnim=False)   
         bpy.context.object.name = 'v_weapon_root'
         bpy.context.scene.render.fps = 30
-        bpy.ops.export_scene.fbx(filepath=filenoext + '_exported.fbx', bake_anim=False, global_scale=0.01, bake_anim_use_nla_strips=False, bake_anim_use_all_actions=False, bake_anim_simplify_factor=0, add_leaf_bones=False)
+        bpy.ops.export_scene.fbx(filepath=filenoext + '_exported.fbx', mesh_smooth_type='FACE', use_tspace=False, bake_anim=False, global_scale=0.01, bake_anim_use_nla_strips=False, bake_anim_use_all_actions=False, bake_anim_simplify_factor=0, add_leaf_bones=False)
 
-qc = filenoext + '.qc'
+qc = file
 lines_formatted = []
 lines_sequence = []
 animation_smd = []
