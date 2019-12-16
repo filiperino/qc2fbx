@@ -24,5 +24,3 @@ to-do:
 - run tests on different source engine games to make it game-independent
 - make it recursive and more user-friendly
 - fix tec-9 and ssg08 skeleton to make it compatible with other v_weapons
-
-this wasn't supposed to be public but hey
